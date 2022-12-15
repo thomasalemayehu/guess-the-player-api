@@ -5,9 +5,14 @@ const mongoose = require('mongoose');
 const playerSchema = mongoose.Schema({
   name: {
     type: String,
+    required: [true, 'Player name is required.'],
+    unique: [true],
+    minLength: [3, 'Player name must be at least 3 characters long.'],
   },
   nationality: {
     type: String,
+    required: [true, 'Player nationality is required.'],
+    minLength: [3, 'Player nationality must be at least 3 characters long.'],
   },
   team: {
     type: mongoose.Schema.Types.ObjectId,
@@ -15,6 +20,7 @@ const playerSchema = mongoose.Schema({
   },
   position: {
     type: String,
+    required: true,
     enum: {
       values: ['GK', 'DEF', 'MID', 'FWD'],
       message: '{VALUE} is not supported for player position',
@@ -22,9 +28,13 @@ const playerSchema = mongoose.Schema({
   },
   yearOfBirth: {
     type: Number,
+    required: true,
+    min: 1950,
   },
   shirtNumber: {
     type: Number,
+    required: true,
+    min: 0,
   },
 });
 
