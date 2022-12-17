@@ -35,7 +35,8 @@ const getPlayers = async (_, response) => {
 const getPlayerByQuery = async (request, response) => {
   const queryString = request.query.query;
 
-  const players = await Player.find({ name: { $regex: queryString } });
+  const players = await Player.find({ name: { $regex: queryString } }).populate('team');
+
   response.status(200).json(players);
 };
 module.exports = { addPlayer, getPlayers, getPlayerByQuery };

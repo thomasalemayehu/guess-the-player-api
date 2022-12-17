@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "639c155bb4b79bcd66965015"
+  },
+  "name": "Aaron Ramsdale",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "GK",
+  "yearOfBirth": 1998,
+  "shirtNumber": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c15928891ee610f93234b"
+  },
+  "name": "Kieran Tierney",
+  "nationality": "Scotland",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1997,
+  "shirtNumber": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c15a58891ee610f93234f"
+  },
+  "name": "Ben White",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1997,
+  "shirtNumber": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c15c08891ee610f932353"
+  },
+  "name": "Gabriel Magalhaes",
+  "nationality": "Brazil",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1997,
+  "shirtNumber": 6,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c15d98891ee610f932357"
+  },
+  "name": "William Saliba",
+  "nationality": "France",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "DEF",
+  "yearOfBirth": 2001,
+  "shirtNumber": 12,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c160b8891ee610f93235b"
+  },
+  "name": "Oleksandr Zinchenko",
+  "nationality": "Ukraine",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1996,
+  "shirtNumber": 35,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c162f8891ee610f93235f"
+  },
+  "name": "Thomas Partey",
+  "nationality": "Ghana",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "MID",
+  "yearOfBirth": 1993,
+  "shirtNumber": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c16518891ee610f932363"
+  },
+  "name": "Bukayo Saka",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "MID",
+  "yearOfBirth": 2001,
+  "shirtNumber": 7,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c16698891ee610f932367"
+  },
+  "name": "Martin Odegaard",
+  "nationality": "Norway",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "MID",
+  "yearOfBirth": 1998,
+  "shirtNumber": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c168d8891ee610f93236b"
+  },
+  "name": "Granit Xhaka",
+  "nationality": "Switzerland",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "MID",
+  "yearOfBirth": 1992,
+  "shirtNumber": 34,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c16a88891ee610f93236f"
+  },
+  "name": "Gabriel Jesus",
+  "nationality": "Brazil",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "FWD",
+  "yearOfBirth": 1997,
+  "shirtNumber": 9,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c16bd8891ee610f932373"
+  },
+  "name": "Gabriel Martinelli",
+  "nationality": "Brazil",
+  "team": {
+    "$oid": "639c14d41e798b92597f64ec"
+  },
+  "position": "FWD",
+  "yearOfBirth": 2001,
+  "shirtNumber": 11,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c17788891ee610f932377"
+  },
+  "name": "David De Gea",
+  "nationality": "Spain",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "GK",
+  "yearOfBirth": 1990,
+  "shirtNumber": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c17a68891ee610f93237b"
+  },
+  "name": "Lisandro Martinez",
+  "nationality": "Argentina",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1998,
+  "shirtNumber": 6,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c17be8891ee610f93237f"
+  },
+  "name": "Raphael Varane",
+  "nationality": "France",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1993,
+  "shirtNumber": 19,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c17d68891ee610f932383"
+  },
+  "name": "Luke Shaw",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "DEF",
+  "yearOfBirth": 1995,
+  "shirtNumber": 23,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18068891ee610f932387"
+  },
+  "name": "Bruno Fernandes",
+  "nationality": "Portugal",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "MID",
+  "yearOfBirth": 1994,
+  "shirtNumber": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18208891ee610f93238b"
+  },
+  "name": "Casemiro",
+  "nationality": "Brazil",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "MID",
+  "yearOfBirth": 1992,
+  "shirtNumber": 18,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18528891ee610f93238f"
+  },
+  "name": "Donny Van De Beek",
+  "nationality": "Netherlands",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "MID",
+  "yearOfBirth": 1997,
+  "shirtNumber": 34,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18818891ee610f932393"
+  },
+  "name": "Anthony Martial",
+  "nationality": "France",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "FWD",
+  "yearOfBirth": 1995,
+  "shirtNumber": 9,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18a98891ee610f932397"
+  },
+  "name": "Marcus Rashford",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "FWD",
+  "yearOfBirth": 1997,
+  "shirtNumber": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18c58891ee610f93239b"
+  },
+  "name": "Antony",
+  "nationality": "Brazil",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "FWD",
+  "yearOfBirth": 2000,
+  "shirtNumber": 21,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c18d78891ee610f93239f"
+  },
+  "name": "Jadon Sancho",
+  "nationality": "England",
+  "team": {
+    "$oid": "639c14d41e798b92597f64f8"
+  },
+  "position": "FWD",
+  "yearOfBirth": 2000,
+  "shirtNumber": 25,
+  "__v": 0
+}]

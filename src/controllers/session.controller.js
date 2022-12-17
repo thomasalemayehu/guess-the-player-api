@@ -15,23 +15,24 @@ const selectPlayer = async (request, response) => {
     yearOfBirth: selectedPlayer.yearOfBirth,
     shirtNumber: selectedPlayer.shirtNumber,
     team: selectedPlayer.team.name,
+    league: selectedPlayer.team.league,
   });
   await newGameSession.save();
 
-  response.status(200).json(selectedPlayer);
+  response.status(200).json({ id: newGameSession.id });
 };
 
 const checkSession = async (request, response) => {
   const sessionId = request.params.id;
-  const gameSession = await Session.findOne({ id: sessionId });
+  const gameSession = await Session.findById(sessionId);
 
   if (gameSession.attempts >= process.env.MAX_ATTEMPT) {
-    response.status(423).json({ message: 'Game Over' });
+    response.status(423).json({ message: 'Game Over', info: gameSession });
     return;
   }
 
   const { playerId } = request.body;
-  const guessedPlayer = await Player.findOne({ id: playerId }).populate('team');
+  const guessedPlayer = await Player.findById(playerId).populate('team');
 
   if (!gameSession) {
     response.status(404).json({ message: 'Game not found' });
@@ -42,8 +43,18 @@ const checkSession = async (request, response) => {
 
   gameSession.attempts += 1;
   await gameSession.save();
+  const age = new Date().getFullYear() - guessedPlayer.yearOfBirth;
 
-  response.status(200).json({ ...result, attempts: gameSession.attempts });
+  response.status(200).json({
+    ...result,
+    attempts: gameSession.attempts,
+    nationality: guessedPlayer.nationality,
+    position: guessedPlayer.position,
+    team: guessedPlayer.team.logo,
+    shirtNumber: guessedPlayer.shirtNumber,
+    league: guessedPlayer.team.leagueLogo,
+    age,
+  });
 };
 
 module.exports = { selectPlayer, checkSession };

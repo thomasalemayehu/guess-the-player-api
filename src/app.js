@@ -23,6 +23,7 @@ const unknownMiddleware = require('./middlewares/unknown.middleware');
 app.get('/', (request, response) => {
   response.send('Server is live');
 });
+app.use(express.static('public'));
 app.use('/api/v1', sessionRoutes);
 app.use('/api/v1', playerRoutes);
 app.use('/api/v1', teamRoutes);

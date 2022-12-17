@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Bournemouth",
+    "logo": "images/clubs/Bournemouth.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+
+  {
+    "name": "Arsenal",
+    "logo": "images/clubs/Arsenal.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+
+  {
+    "name": "Aston Villa",
+    "logo": "images/clubs/AstonVilla.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+
+  {
+    "name": "Brentford",
+    "logo": "images/clubs/Brentford.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Brighton",
+    "logo": "images/clubs/Brighton.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Chelsea",
+    "logo": "images/clubs/Chelsea.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Crystal Palace",
+    "logo": "images/clubs/CrystalPalace.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Everton",
+    "logo": "images/clubs/Everton.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Fulham",
+    "logo": "images/clubs/Fulham.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Leeds United",
+    "logo": "images/clubs/LeedsUnited.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Leicester City",
+    "logo": "images/clubs/LeicesterCity.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Liverpool",
+    "logo": "images/clubs/Liverpool.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Manchester City",
+    "logo": "images/clubs/ManchesterCity.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Manchester United",
+    "logo": "images/clubs/ManchesterUnited.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Newcastle United",
+    "logo": "images/clubs/NewcastleUnited.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Nottingham Forest",
+    "logo": "images/clubs/NottinghamForest.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Southampton",
+    "logo": "images/clubs/Southampton.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "logo": "images/clubs/TottenhamHotspur.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "West Ham United",
+    "logo": "images/clubs/WestHamUnited.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  },
+  {
+    "name": "Wolverhampton Wanderers",
+    "logo": "images/clubs/WolverhamptonWanderers.png",
+    "league": "EPL",
+    "leagueLogo": "images/league/EPL.png"
+  }
+]

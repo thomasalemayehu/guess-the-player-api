@@ -27,6 +27,9 @@ const sessionSchema = mongoose.Schema({
     type: Number,
     required: true,
   },
+  league: {
+    type: String,
+  },
   attempts: {
     type: Number,
     default: 0,
